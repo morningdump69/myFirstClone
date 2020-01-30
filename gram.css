@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e4e4;
+}
+.container1{
+    display: flex;
+    width: fit-content;
+    color: white;
+}
+
+
+.navBar{
+    display: flex;
+    display: inline-block;
+    border: 1px solid grey;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    }
+.instaLogo{
+   justify-content: start;
+}
+.instaName{
+    justify-content:  start;
+}
+
+.profile{
+    float: right
+}
+.searchBar{
+    width: 10%;
+    left: 45%;
+    top: 20px;
+    position: absolute;
+
+}
+
+.containerMain{
+
+    background-color: #e4e4e4;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: left;
+    padding-top: 80px;
+    
+    
+}
+.containerMain2{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+    
+
+
+
+.card{
+border: 2px ;
+display: flex;
+background: white;
+margin: 5% auto;
+padding-top: 50px;
+padding-bottom: 200px;
+margin-left: 51%;
+width: 500px;
+height: 500px;
+}
