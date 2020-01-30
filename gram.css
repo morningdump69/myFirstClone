@@ -3,13 +3,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #e4e4e4;
+    flex-direction: column;
 }
-.container1{
-    display: flex;
-    width: fit-content;
-    color: white;
-}
-
 
 .navBar{
     display: flex;
@@ -20,14 +15,18 @@ body{
     background-color: white;
     }
 .instaLogo{
-   justify-content: start;
+ justify-content: center;
+ margin-left: 20%;
+
+   
 }
 .instaName{
-    justify-content:  start;
+    justify-content:  center;
 }
 
 .profile{
-    float: right
+    float: right;
+    margin-right: 20%;
 }
 .searchBar{
     width: 10%;
@@ -37,12 +36,17 @@ body{
 
 }
 
-.containerMain{
+.generalInfo{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
 
+.containerMain{
+display: flex;
     background-color: #e4e4e4;
     width: 100%;
     height: 100%;
-    
     display: flex;
     justify-content: left;
     padding-top: 80px;
@@ -50,23 +54,37 @@ body{
     
 }
 .containerMain2{
+    display: flex;
     height: 100vh;
     width: 60%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
     
 
 
 
 .card{
-border: 2px ;
 display: flex;
-background: white;
-margin: 5% auto;
-padding-top: 50px;
-padding-bottom: 200px;
-margin-left: 51%;
+justify-content: center;
+box-shadow: black;
+display: flex;
+margin-top: 10%;
+margin-left: 20%;
 width: 500px;
 height: 500px;
+border-radius: 5px;
+}
+
+.rightSideContainer{
+    display: flex;
+    margin: 60%;
+}
+.box{
+    border: 10px solid black;
+    height: 100px;
+    width: 100px;
+    float: right;
+    align-items: start;
+
 }
