@@ -15,14 +15,14 @@ body{
     justify-content: center;
     }
 .navBar2{
-height: 50px;
+height: 75px;
 display: flex;
 width: 50%;
 justify-content: space-between;
 }
 
 .instastuff {
-    height: 50px;
+    height: 75px;
     width: 150px;
     display: flex;
     align-items: center;
@@ -238,7 +238,6 @@ justify-content: space-between;
 }
 .bottomBar{
     display: flex;
-    border: 1px solid black;
     width: 50%;
     height: 30px;
     align-items: center;
